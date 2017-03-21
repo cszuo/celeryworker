@@ -13,4 +13,4 @@ RUN echo "export VISIBLE=now" >> /etc/profile
 
 EXPOSE 22
 RUN /usr/sbin/sshd -D&
-CMD ["ls"]
+CMD ["ping","8.8.8.8"]
